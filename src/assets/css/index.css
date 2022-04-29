@@ -1,0 +1,17 @@
+:root {
+  --primary: #8450c0;
+  --purple: #3D2645;
+  --white: #F0EFF4;
+  --black: #1a1b1e;
+}
+
+body {
+  font-family: 'Inter', serif;
+  background: var(--black);
+  color: var(--white);
+  margin: 0;
+}
+
+h1 {
+  color: var(--primary)
+}
