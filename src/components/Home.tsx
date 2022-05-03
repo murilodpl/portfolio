@@ -4,7 +4,7 @@ import iconLinkedin from "../assets/icon-linkedin.svg"
 
 export default function Home() {
     return (
-        <div className="h-screen lg:grid grid-cols-2">
+        <div className="h-screen flex flex-col justify-center lg:flex-row lg:grid lg:grid-cols-2">
             <div className="flex flex-col items-center justify-center">
                 <h1>Murilo Leopoldino</h1>
                 <p>Front-End Developer | ReactJS Developer</p>
