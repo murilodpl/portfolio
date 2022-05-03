@@ -51,6 +51,7 @@ The site will have a form to contact me.
 ### Built With
 
 * [React.js](https://reactjs.org/)
+* [TypeScript](https://www.typescriptlang.org/)
 * [TailwindCSS](https://tailwindcss.com/)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
