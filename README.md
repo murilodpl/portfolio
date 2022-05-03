@@ -9,7 +9,7 @@
     A site showing all of Murilo's projects and a little bit about him.
     <br />
     <br />
-    <a href="https://github.com/murilodpl/portfolio/">View Demo</a>
+    <a href="https://portfolio-murilodpl.vercel.app">Go to Website</a>
     ·
     <a href="https://github.com/murilodpl/portfolio/issues">Report Bug</a>
     ·
