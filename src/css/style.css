@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+html {
+  @apply scroll-smooth;
+}
+
 body {
   @apply bg-m_black text-m_white m-0;
 }
@@ -29,4 +33,9 @@ p {
 
 .iconHover:hover {
   filter: invert(33%) sepia(100%) saturate(746%) hue-rotate(200deg) brightness(100%) contrast(100%);
+}
+
+/* Header */
+.navItem {
+  @apply block py-2 pr-4 pl-3 border-b border-m_purple md:hover:bg-transparent md:border-0 md:p-0 text-m_white hover:brightness-125 hover:bg-m_purple;
 }
