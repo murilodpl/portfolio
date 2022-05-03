@@ -12,10 +12,10 @@ export default function AboutMe() {
                 </div>
 
                 <div className="my-4">
-                    <p className="text-primary font-bold">Knowledge, Skills, and Abilities:</p>
+                    <h3>Knowledge, Skills, and Abilities:</h3>
                     <ul className="lg:list-disc">
                         <li>ReactJS;</li>
-                        <li>Git && GitHub;</li>
+                        <li>Git and GitHub;</li>
                         <li>HTML5, CSS3 e Javascript;</li>
                         <li>PHP;</li>
                         <li>MySQL | SQL Server | PostgreSQL;</li>
@@ -27,15 +27,16 @@ export default function AboutMe() {
                 </div>
 
                 <div className="my-4">
-                    <p className="text-primary font-bold">Language proficiency:</p>
+                    <h3>Language proficiency:</h3>
                     <ul className="lg:list-disc">
                         <li>Native Portuguese;</li>
                         <li>Intermediate English.</li>
                     </ul>
                 </div>
 
-                <div>
-                    <p>I like to program, play games with my friends and play guitar. 😎</p>
+                <div className="mt-4">
+                    <h3>Interests and hobbies</h3>
+                    <p>I like programming, to play games with my friends and playing guitar. 😎</p>
                 </div>
             </div>
         </div>

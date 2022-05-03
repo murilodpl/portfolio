@@ -55,6 +55,7 @@ export default function Contact() {
             <div className="self-center text-center">
                 {(!isSend) &&
                     <form>
+                        <h2 className="mb-4">Contact Me</h2>
                         <div className="contactForm">
                             <input className="col-span-2" type="text" name="name" value={formData.name} onChange={handleChange} placeholder="Name" required />
                             <input type="email" name="email" value={formData.email} onChange={handleChange} placeholder="E-mail" required />
