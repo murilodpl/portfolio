@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-m_black text-m_white m-0;
+}
+
+h1 {
+  @apply text-primary;
+}
