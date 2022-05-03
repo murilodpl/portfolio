@@ -7,5 +7,26 @@ body {
 }
 
 h1 {
-  @apply text-primary;
+  @apply text-2xl lg:text-3xl font-bold text-primary;
+}
+
+h2 {
+  @apply text-xl lg:text-2xl font-bold text-primary;
+}
+
+h3, h4, h5, h6 {
+  @apply text-lg lg:text-xl font-bold text-primary;
+}
+
+p {
+  @apply text-base lg:text-lg;
+}
+
+/* Classes */
+.sectionImage {
+  @apply w-96 h-auto mx-auto my-6 lg:my-auto;
+}
+
+.iconHover:hover {
+  filter: invert(33%) sepia(100%) saturate(746%) hue-rotate(200deg) brightness(100%) contrast(100%);
 }
