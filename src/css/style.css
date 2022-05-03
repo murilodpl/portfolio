@@ -39,3 +39,85 @@ p {
 .navItem {
   @apply block py-2 pr-4 pl-3 border-b border-m_purple md:hover:bg-transparent md:border-0 md:p-0 text-m_white hover:brightness-125 hover:bg-m_purple;
 }
+
+/* Contact */
+.contactForm {
+  @apply lg:grid lg:grid-cols-2 gap-2;
+}
+
+.contactForm input {
+  @apply w-full h-12 mb-2 lg:mb-0;
+}
+
+.contactForm textarea {
+  @apply w-full h-36;
+}
+
+.contactForm input,
+.contactForm textarea {
+  @apply bg-transparent placeholder:text-m_white placeholder:brightness-75 focus:ring-primary focus:border-primary;
+}
+
+.contactForm button {
+  @apply text-sm lg:text-base w-full h-12 font-bold bg-primary border border-transparent transition-all hover:text-primary hover:bg-transparent hover:border-primary;
+}
+
+/* Loading */
+.lds-ellipsis {
+  @apply inline-block relative w-20 h-20 scale-75;
+}
+
+.lds-ellipsis div {
+  @apply absolute top-[33px] w-[13px] h-[13px] rounded-[50%] bg-m_white;
+  animation-timing-function: cubic-bezier(0, 1, 1, 0);
+}
+
+.lds-ellipsis div:nth-child(1) {
+  left: 8px;
+  animation: lds-ellipsis1 0.6s infinite;
+}
+
+.lds-ellipsis div:nth-child(2) {
+  left: 8px;
+  animation: lds-ellipsis2 0.6s infinite;
+}
+
+.lds-ellipsis div:nth-child(3) {
+  left: 32px;
+  animation: lds-ellipsis2 0.6s infinite;
+}
+
+.lds-ellipsis div:nth-child(4) {
+  left: 56px;
+  animation: lds-ellipsis3 0.6s infinite;
+}
+
+@keyframes lds-ellipsis1 {
+  0% {
+    transform: scale(0);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
+
+@keyframes lds-ellipsis3 {
+  0% {
+    transform: scale(1);
+  }
+
+  100% {
+    transform: scale(0);
+  }
+}
+
+@keyframes lds-ellipsis2 {
+  0% {
+    transform: translate(0, 0);
+  }
+
+  100% {
+    transform: translate(24px, 0);
+  }
+}
