@@ -2,6 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
+@media (min-width: 1024px) and (max-width: 1500px) {
+  html {
+      font-size: 14px;
+  }
+}
+
 html {
   @apply scroll-smooth;
 }
@@ -38,6 +44,15 @@ p {
 /* Header */
 .navItem {
   @apply block py-2 pr-4 pl-3 border-b border-m_purple md:hover:bg-transparent md:border-0 md:p-0 text-m_white hover:brightness-125 hover:bg-m_purple;
+}
+
+/* Projects */
+.projectImg {
+  @apply w-auto h-40 border border-primary;
+}
+
+.projectsBtn {
+  @apply cursor-pointer text-lg sm:text-xl transition-all hover:text-primary disabled:opacity-0;
 }
 
 /* Contact */

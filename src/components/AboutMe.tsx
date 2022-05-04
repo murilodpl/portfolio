@@ -2,10 +2,10 @@ import aboutmeSVG from "../assets/aboutme.svg";
 
 export default function AboutMe() {
     return (
-        <div className="min-h-screen flex flex-col justify-center lg:flex-row lg:grid lg:grid-cols-2" id="aboutme">
-            <img className="sectionImage" src={aboutmeSVG} width="384px" height="384px" alt="Profile Details" />
+        <div className="min-h-screen py-12 lg:py-0 flex flex-col justify-center lg:flex-row lg:grid lg:grid-cols-2" id="aboutme">
+            <img className="sectionImage order-2 lg:order-1" src={aboutmeSVG} width="384px" height="384px" alt="Profile Details" />
 
-            <div className="flex flex-col justify-center text-center lg:text-left">
+            <div className="flex flex-col justify-center text-center lg:text-left order-1 lg:order-2">
                 <div>
                     <h2>About Me</h2>
                     <p>Frontend developer, passionate about learning/coding in new programming languages. I have experience in creating and maintaining landing pages, institutional sites, systems and databases.</p>
