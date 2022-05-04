@@ -43,7 +43,7 @@ p {
 
 /* Header */
 .navItem {
-  @apply block py-2 pr-4 pl-3 border-b border-m_purple md:hover:bg-transparent md:border-0 md:p-0 text-m_white hover:brightness-125 hover:bg-m_purple;
+  @apply block py-2 pr-4 pl-3 border-b border-m_purple md:hover:bg-transparent md:border-0 md:p-0 text-m_white transition-all md:hover:text-primary hover:brightness-125 hover:bg-m_purple;
 }
 
 /* Projects */

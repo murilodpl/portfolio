@@ -15,7 +15,7 @@ export default [
     {
         "id": "2",
         "name": "Philosophy Book",
-        "description": "A site turned to philosophy, with philosophers, ideas, a input to search ideas and a quizz.", 
+        "description": "A site dedicated to philosophy, with philosophers, ideas and a quiz.", 
         "img": [
             "https://raw.githubusercontent.com/murilodpl/react-philosophy-book/main/public/image01.png",
             "https://raw.githubusercontent.com/murilodpl/react-philosophy-book/main/public/image02.png",
@@ -28,7 +28,7 @@ export default [
     {
         "id": "3",
         "name": "Quizzical",
-        "description": "A solo project from Scrimba. A quizz game getting questions from https://opentdb.com/.", 
+        "description": "A quizz game with questions from OpenTrivia Database (https://opentdb.com/).", 
         "img": [
             "https://raw.githubusercontent.com/murilodpl/react-quizzical/main/image01.png",
             "https://raw.githubusercontent.com/murilodpl/react-quizzical/main/image02.png",
