@@ -52,7 +52,7 @@ p {
 }
 
 .projectsBtn {
-  @apply cursor-pointer text-lg sm:text-xl transition-all hover:text-primary disabled:opacity-0;
+  @apply cursor-pointer text-lg sm:text-xl transition-all hover:text-primary disabled:opacity-0 disabled:cursor-auto;
 }
 
 /* Contact */
