@@ -55,6 +55,10 @@ p {
   @apply cursor-pointer text-lg sm:text-xl transition-all hover:text-primary disabled:opacity-0 disabled:cursor-auto;
 }
 
+.btnImg {
+  @apply border-0 bg-transparent transition-all hover:brightness-75 m-auto;
+}
+
 /* Contact */
 .contactForm {
   @apply lg:grid lg:grid-cols-2 gap-2;
@@ -75,6 +79,11 @@ p {
 
 .contactForm button {
   @apply text-sm lg:text-base w-full h-12 font-bold bg-primary border border-transparent transition-all hover:text-primary hover:bg-transparent hover:border-primary;
+}
+
+/* Lightbox */
+#lightbox {
+  @apply fixed z-[60] top-0 w-full h-full bg-m_black opacity-80;
 }
 
 /* Loading */

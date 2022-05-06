@@ -2,6 +2,7 @@ import AboutMe from "./components/AboutMe";
 import Contact from "./components/Contact";
 import Header from "./components/Header";
 import Home from "./components/Home";
+import Lightbox from "./components/Lightbox";
 import Projects from "./components/Projects";
 
 export default function App() {
@@ -15,6 +16,9 @@ export default function App() {
         <Projects />
         <Contact />
       </div>
+
+      <Lightbox />
     </div>
   )
 }
+

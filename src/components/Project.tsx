@@ -1,5 +1,18 @@
 export default function Project(props: any) {
-    const imgs = props.data.img.map((index: string, key: number) => <a className="transition-all hover:brightness-75 m-auto" target="_blank" href={index} key={key}><img className="projectImg" width="326" height="160" src={index} alt={props.data.name + key} /></a>)
+    // Functions
+    function handleClickImg(imgUrl: string) {
+        console.log(imgUrl)
+        lightbox.classList.add('active')
+        const img = document.createElement('img')
+        img.src = image.src
+        while (lightbox.firstChild) {
+            lightbox.removeChild(lightbox.firstChild)
+        }
+        lightbox.appendChild(img)
+    }
+
+    // Create Product
+    const imgs = props.data.img.map((index: string, key: number) => <button type="button" className="btnImg" onClick={() => handleClickImg(index)} key={key}><img className="projectImg" width="326" height="160" src={index} alt={props.data.name + key} /></button>)
 
     return (
         <div className="my-4 text-center lg:text-left">
