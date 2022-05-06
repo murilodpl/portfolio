@@ -1,7 +1,8 @@
 export default function Lightbox() {
-    function handleClick(e) {
+    function handleClick(e: any) {
         if (e.target !== e.currentTarget) return
-        e.classList.remove('active')
+        document.body.classList.remove('ofhidden')
+        e.target.classList.remove('active')
     }
     // https://www.youtube.com/watch?v=uKVVSwXdLr0&ab_channel=WebDevSimplified
     // https://codepen.io/WebDevSimplified/pen/mdbwgxy

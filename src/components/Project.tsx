@@ -1,10 +1,14 @@
 export default function Project(props: any) {
     // Functions
     function handleClickImg(imgUrl: string) {
-        console.log(imgUrl)
+        document.body.classList.add('ofhidden')
+
+        const lightbox: any = document.getElementById('lightbox')
         lightbox.classList.add('active')
+
         const img = document.createElement('img')
-        img.src = image.src
+        img.src = imgUrl
+        
         while (lightbox.firstChild) {
             lightbox.removeChild(lightbox.firstChild)
         }
