@@ -16,6 +16,10 @@ body {
   @apply bg-m_black text-m_white m-0;
 }
 
+body.ofhidden {
+  @apply overflow-hidden;
+}
+
 h1 {
   @apply text-2xl lg:text-3xl font-bold text-primary;
 }
@@ -55,6 +59,10 @@ p {
   @apply cursor-pointer text-lg sm:text-xl transition-all hover:text-primary disabled:opacity-0 disabled:cursor-auto;
 }
 
+.btnImg {
+  @apply border-0 bg-transparent transition-all hover:brightness-75 m-auto;
+}
+
 /* Contact */
 .contactForm {
   @apply lg:grid lg:grid-cols-2 gap-2;
@@ -75,6 +83,15 @@ p {
 
 .contactForm button {
   @apply text-sm lg:text-base w-full h-12 font-bold bg-primary border border-transparent transition-all hover:text-primary hover:bg-transparent hover:border-primary;
+}
+
+/* Lightbox */
+#lightbox.active {
+  @apply fixed flex justify-center items-center z-[60] top-0 w-full h-full bg-[#3D264580];
+}
+
+#lightbox.active img {
+  @apply max-w-[80%] h-auto;
 }
 
 /* Loading */
