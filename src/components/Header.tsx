@@ -5,6 +5,10 @@ export default function Header() {
 
     function menuBtnClick() {
         setMobileMenuShow(prevBool => !prevBool)
+        
+        setTimeout(() => {
+            history.pushState("", document.title, window.location.pathname + window.location.search);
+        }, 5);
     }
 
     return (
