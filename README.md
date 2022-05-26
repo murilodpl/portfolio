@@ -39,7 +39,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+[![Product Name Screen Shot][product-screenshot]](https://portfolio-murilodpl.vercel.app)
 
 I'ts a simple project where I show all the projects I've done so far and talk about myself and my experiencies.
 
@@ -69,8 +69,6 @@ The site will have a form to contact me.
 	- [x] Projects
 	- [x] Contact:
 		- [x] Add social media.
-
-See the [open issues](https://github.com/othneildrew/Best-README-Template/issues) for a full list of proposed features (and known issues).
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
