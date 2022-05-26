@@ -62,13 +62,13 @@ The site will have a form to contact me.
 ## Roadmap
 
 - [x] Add README.md;
-- [ ] Create header;
-- [ ] Create sections:
-	- [ ] Home;
-	- [ ] About me;
-	- [ ] Projects
-	- [ ] Contact:
-		- [ ] Add social media.
+- [x] Create header;
+- [x] Create sections:
+	- [x] Home;
+	- [x] About me;
+	- [x] Projects
+	- [x] Contact:
+		- [x] Add social media.
 
 See the [open issues](https://github.com/othneildrew/Best-README-Template/issues) for a full list of proposed features (and known issues).
 

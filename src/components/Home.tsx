@@ -7,7 +7,7 @@ export default function Home() {
         <div className="min-h-screen flex flex-col justify-center lg:flex-row lg:grid lg:grid-cols-2">
             <div className="flex flex-col items-center justify-center text-center">
                 <h1>Murilo Leopoldino</h1>
-                <p>Front-End Developer | ReactJS Developer</p>
+                <p>Fullstack Developer | ReactJS Developer</p>
                 <div className="flex gap-4 mt-4">
                     <a href="https://github.com/murilodpl" className="iconHover" target="_blank" rel="noopenner" aria-label="Murilo's GitHub"><img src={iconGitHub} width="24px" height="24px" alt="GitHub Icon" /></a>
                     <a href="https://www.linkedin.com/in/murilo-leopoldino" className="iconHover" target="_blank" rel="noopenner" aria-label="Murilo's Linkedin"><img src={iconLinkedin} width="24px" height="24px" alt="Linkedin Icon" /></a>
